@@ -12,14 +12,14 @@ function App() {
 
 
 
-<img src = { imageInSrc} alt='imageInSrc'/> 
+<img className="image1" src = { imageInSrc} alt='imageInSrc'/> 
 
 
 
-<img src = "/imageInPublic.jpg" alt="imageInPublic.jpg"/> 
+<img className="image2" src = "/imageInPublic.jpg" alt="imageInPublic.jpg"/> 
 
 </div>
-<video width="750" height="500" controls >
+<video className="video1" width="750" height="500" controls >
       <source src="/myVideo.mp4" type="video/mp4"/>
 </video>
 
